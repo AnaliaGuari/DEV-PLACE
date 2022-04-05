@@ -116,10 +116,18 @@ public class Main {
 	            	   
 	               case 3:   
 	            	   Integer [] numeros = {3, 5, 1, 2, -1, 7, 0,10};
+	            	   System.out.println("Manera descendente");
 	            	   Arrays.sort(numeros, Collections.reverseOrder());                                                                 
 	            	   for (int n : numeros) {
 	            	          System.out.println(n);                                                                                     
 	            	   }
+	            	   System.out.println("Manera ascendente");
+	            	   Arrays.sort(numeros);                                                                                             
+	            	 //mostrarlo ordenado
+	            	 for (int n : numeros) {
+	            	      System.out.println(n);                                                                                       
+	            	 }
+	            	   
 	                   break;  
 	                   
 	               case 4:   salir = true;
@@ -135,4 +143,19 @@ public class Main {
 	}
 	}
 
+	public static void BuscarMyMenor(int[] num) {
+		int mayor;
+		int menor;
+
+		mayor=menor=num[0];
+		for(int x=0;x<10;x++) {
+			if(num[x]>mayor) {
+				mayor=num[x];
+			}
+			if(num[x]<menor) {
+				menor=num[x];
+			}
+		}
+		
+	}
 }
