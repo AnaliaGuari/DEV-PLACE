@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "6258705acf9dac8eab7e450d"
+  },
+  "nombre": "dota",
+  "precio": 0,
+  "portada": "portada-dota.png",
+  "descripcion": "el moba mas grande de steam",
+  "etiquetas": [
+    "moba",
+    "multijugador",
+    "competitivo",
+    "dificil"
+  ],
+  "valoracion": "muy positiva"
+},{
+  "_id": {
+    "$oid": "625871d0cf9dac8eab7e4516"
+  },
+  "nombre": "Elder Ring",
+  "precio": 60,
+  "portada": "portada-elder-ring.png",
+  "descripcion": "Ultimo juego de FromSoftware",
+  "etiquetas": [
+    "Action-RPG",
+    "multijugador",
+    "Souls-like",
+    "dificil"
+  ],
+  "valoracion": "extremadamente positiva"
+}]

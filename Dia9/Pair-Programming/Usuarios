@@ -1,0 +1,34 @@
+[{
+  "_id": {
+    "$oid": "62586db8cf9dac8eab7e4507"
+  },
+  "nivel": 30,
+  "password": "password123",
+  "user": "xXxGamer420xXx",
+  "friends": [
+    "DotaGamer",
+    "tomasitoGamer"
+  ],
+  "juegos": [
+    {
+      "$oid": "6258705acf9dac8eab7e450d"
+    },
+    {
+      "$oid": "625871d0cf9dac8eab7e4516"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "62586f09cf9dac8eab7e4509"
+  },
+  "nivel": 24,
+  "password": "1990",
+  "user": "DotaGamer"
+},{
+  "_id": {
+    "$oid": "62587017cf9dac8eab7e450a"
+  },
+  "nivel": 2,
+  "password": "tomasito",
+  "user": "tomasitoGamer"
+}]
