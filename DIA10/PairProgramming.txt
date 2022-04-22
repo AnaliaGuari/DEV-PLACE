@@ -1,0 +1,3 @@
+https://jsonplaceholder.typicode.com/users
+
+api vista en clase, para explicarla
